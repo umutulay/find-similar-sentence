@@ -1,9 +1,10 @@
 # PDF Sentence Comparer
 
-PDF Sentence Comparer is a Python tool designed to find the most semantically similar sentence to a given input sentence within a PDF document, including the page number where this sentence can be found. It leverages the powerful natural language processing capabilities of spaCy and the PDF text extraction features of PyMuPDF (Fitz).
+PDF Sentence Comparer is a Python tool designed to find the most semantically similar sentence to a given input sentence (in French) within a PDF document (in English), including the page number where this sentence can be found.
 
 ## Features
 
+- Translate input in French to English
 - Extracts text from PDF documents.
 - Utilizes NLP to analyze and compare sentence semantics.
 - Finds and returns the most similar sentence to a given input, along with its page number in the PDF.
