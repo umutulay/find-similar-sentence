@@ -10,18 +10,22 @@ PDF Sentence Comparer is a Python tool designed to find the most semantically si
 
 ### Installation
 
-This project requires Python 3.8+ and pip for installation. Follow these steps to install the necessary dependencies:
+This project requires Python 3.8+ (I used Python 3.11.8) and pip for installation. Follow these steps to install the necessary dependencies:
 
 1. Clone the repository
 `git clone https://github.com/eksen1907/FindSimilarSentenceInFrench-English.git`
 2. Install Python packages
 `pip install -r requirements.txt`
+3. You'll also need to download a spaCy language model. For English, you can use:
+`python -m spacy download en_core_web_md`
 
 ### Dependencies
 - spaCy
 - PyMuPDF (Fitz)
-- You'll also need to download a spaCy language model. For English, you can use:
-`python -m spacy download en_core_web_md`
+- Transformers
+- PyTorch
+- sentencepiece
+- sacremoses
 
 ## Usage
 
