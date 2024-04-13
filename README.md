@@ -14,7 +14,7 @@ PDF Sentence Comparer is a Python tool designed to find the most semantically si
 This project requires Python 3.8+ (I used Python 3.11.8) and pip for installation. Follow these steps to install the necessary dependencies:
 
 1. Clone the repository
-`git clone https://github.com/eksen1907/FindSimilarSentenceInFrench-English.git`
+`git clone https://github.com/umutulay/FindSimilarSentenceInFrench-English.git`
 2. Install Python packages
 `pip install -r requirements.txt`
 3. You'll also need to download a spaCy language model. For English, you can use:
@@ -34,4 +34,4 @@ This project requires Python 3.8+ (I used Python 3.11.8) and pip for installatio
 - Run the script from the command line. You will be prompted to enter a sentence
 
 ## Authors
-* Umut Tulay - [eksen1907](https://github.com/eksen1907) with ChatGPT
+* Umut Tulay - [umutulay](https://github.com/umutulay)
