@@ -1,4 +1,4 @@
-# PDF Sentence Comparer
+# find-similar-sentence
 
 PDF Sentence Comparer is a Python tool designed to find the most semantically similar sentence to a given input sentence (in French) within a PDF document (in English), including the page number where this sentence can be found.
 
